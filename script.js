@@ -131,7 +131,6 @@ function handleKeyPress(event) {
     }
   }
 }
-
 document.addEventListener("keydown", handleKeyPress);
 
 // Increasing game speed
@@ -191,3 +190,4 @@ function stopGame() {
   instructionText.style.display = "block";
   logo.style.display = "block";
 }
+console.log(increaseSpeed)
